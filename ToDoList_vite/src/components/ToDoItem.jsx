@@ -1,4 +1,4 @@
-
+import './listStyle.css';
 
 function ToDoItem({ todo , onToggle , onDelete}){
    const itemClasses = todo.completed ? 'todo-item completed' : 'todo-item';

@@ -1,4 +1,4 @@
-
+import './listStyle.css';
 
 function Header(){
     return(

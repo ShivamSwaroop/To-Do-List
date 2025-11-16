@@ -1,3 +1,7 @@
+import './listStyle.css';
+import ToDoItem from './ToDoItem.jsx';  
+
+
 function ToDoList ({ todos, onToggle, onDelete })  { 
   return (
     <ul className="todo-list">
