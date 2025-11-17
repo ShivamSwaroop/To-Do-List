@@ -1,16 +1,67 @@
-# React + Vite
+## To-Do List Application ##
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a dynamic and interactive To-Do List application built using React functional components. It allows users to manage their daily tasks efficiently, covering all essential CRUD (Create, Read, Update, Delete) operations.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application provides the following core functionalities:
 
-## React Compiler
+Add Task: Users can input a new task and add it to the list.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Read/View Tasks: All to-do items are dynamically rendered from the application state.
 
-## Expanding the ESLint configuration
+Mark Complete: Tasks can be toggled as completed or incomplete.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Delete Task: Any item can be permanently removed from the list.
+
+## Components
+
+The application architecture is structured around four main components, utilizing state and props for data flow:
+
+App: The main container component, responsible for managing the central list of to-do items in its state.
+
+Header: Displays the application title and any necessary introductory information.
+
+ToDoList: Receives the list of to-do items as props and is responsible for rendering the collection of ToDoItem components using the map function.
+
+ToDoItem: Displays an individual task, handles the logic for marking a task as completed, editing its content, and deleting itself from the list.
+
+## Technology Stack
+
+Core Library: React (using functional components and Hooks like useState).
+
+Project Setup: Vite.
+
+Styling: Custom CSS for a user-friendly and appealing interface.
+
+## Getting Started
+
+Follow these steps to clone the repository and run the application locally.
+
+Prerequisites
+
+You must have Node.js and npm (Node Package Manager) installed on your machine.
+
+Installation
+
+Clone the Repository:
+
+git clone []
+cd []
+
+
+Install Dependencies:
+Since the project was initialized with Vite, you only need to run the install command.
+
+npm install
+
+
+Running the Application
+
+Start the local development server:
+
+npm run dev
+ 
+
+
+The application will typically be available in your browser at http://localhost:5173/.
