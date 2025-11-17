@@ -5,15 +5,13 @@
             font-family: Arial, sans-serif;
           }
           .todo-app {
-            /*max-width: 500px;*/
+            max-width: 500px;
             margin: 0 auto;
             background-color: #ffffff;
             border-radius: 12px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             overflow: hidden;
-          }
-
-          
+          }         
           .header {
             padding: 30px 20px;
             background-color: #4f46e5; 
@@ -32,9 +30,7 @@
             color: #c7d2fe;
             margin-top: 5px;
             font-size: 0.9rem;
-          }
-          
-          
+          }         
           .todo-form {
             display: flex;
             gap: 10px;
@@ -52,9 +48,7 @@
             outline: none;
             border-color: #4f46e5;
             box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
-          }
-
-          /* Buttons */
+          }         
           .btn {
             padding: 10px 15px;
             border: none;
@@ -74,9 +68,7 @@
           .btn-add:disabled {
             background-color: #a5b4fc;
             cursor: not-allowed;
-          }
-
-          
+          }         
           .todo-list {
             list-style: none;
             padding: 0;
@@ -87,9 +79,7 @@
             color: #6b7280;
             padding: 50px 0;
             font-size: 1.1rem;
-          }
-          
-          
+          }         
           .todo-item {
             display: flex;
             align-items: center;
@@ -113,9 +103,7 @@
             font-size: 1.1rem;
             color: #1f2937;
             word-break: break-word;
-          }
-          
-          
+          }         
           .todo-item.completed {
             background-color: #ecfdf5; 
             opacity: 0.8;
@@ -125,16 +113,13 @@
             text-decoration: line-through;
             color: #6b7280;
             font-style: italic;
-          }
-
-          
+          }         
           .todo-actions {
             display: flex;
             gap: 8px;
             margin-left: 15px;
           }
 
-          /* Action Buttons */
           .btn-complete, .btn-delete {
             font-size: 0.85rem;
             padding: 8px 12px;
@@ -156,7 +141,6 @@
             background-color: #dc2626;
           }
           
-          /* Footer */
           .footer {
             padding: 15px;
             text-align: center;

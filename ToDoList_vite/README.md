@@ -46,8 +46,8 @@ Installation
 
 Clone the Repository:
 
-git clone []
-cd []
+git clone [https://github.com/ShivamSwaroop/To-Do-List.git]
+cd [ToDoList_vite]
 
 
 Install Dependencies:
